@@ -19,6 +19,7 @@ class Personal : Fragment() {
     private lateinit var binding: FragmentPersonalBinding
     private lateinit var activity: Activity
 
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
@@ -56,11 +57,6 @@ class Personal : Fragment() {
         )
 
         postData.addAll(data)
-
-        binding.filter.setOnClickListener()
-        {
-
-        }
     }
 
     private fun setCaptionListAdapter() {
@@ -70,6 +66,5 @@ class Personal : Fragment() {
         binding.rvCaptionList.adapter = adapter
 
     }
-
 
 }

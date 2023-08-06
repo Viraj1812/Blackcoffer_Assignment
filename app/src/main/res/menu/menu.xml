@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionExplore"
+        android:title="Home"
+        android:icon="@drawable/explore"/>
+    <item
+        android:id="@+id/actionNetwork"
+        android:title="Network"
+        android:icon="@drawable/network"/>
+    <item
+        android:id="@+id/actionChat"
+        android:title="Chat"
+        android:icon="@drawable/chat"/>
+    <item
+        android:id="@+id/actionContact"
+        android:title="Contacts"
+        android:icon="@drawable/contact"/>
+    <item
+        android:id="@+id/actionGRP"
+        android:title="Groups"
+        android:icon="@drawable/hash"/>
+
+</menu>
