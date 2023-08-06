@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_bg_color"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <RelativeLayout
         android:id="@+id/rlMainToolbar"
@@ -116,14 +116,16 @@
         android:layout_height="@dimen/_35sdp"
         android:background="@color/white"
         app:layout_constraintTop_toBottomOf="@+id/rlMainToolbar"
-        app:tabIndicator="@color/purple_200"
-        app:tabIndicatorColor="@color/purple_200"
+        app:tabIndicator="@color/black"
+        app:tabIndicatorColor="@color/black"
         app:tabIndicatorFullWidth="false"
         app:tabIndicatorHeight="2dp"
         app:tabRippleColor="@color/transparent"
-        app:tabSelectedTextColor="@color/purple_200"
+        app:tabSelectedTextColor="@color/black"
         app:tabTextAppearance="@style/AppTabTextAppearance"
         app:tabTextColor="@color/tab_text_color" />
+
+
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewpagerMain"

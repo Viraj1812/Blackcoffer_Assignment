@@ -1,5 +1,6 @@
-package com.hvdev.blackcoffer_assignment
+package com.hvdev.blackcoffer_assignment.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -24,6 +25,14 @@ class MainActivity : AppCompatActivity() {
 
         init()
         setViewpagerAdapter()
+        addListner()
+    }
+
+    private fun addListner() {
+        binding.refine.setOnClickListener(){
+            val intent = Intent(this, RefineActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun init() {
